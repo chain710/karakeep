@@ -3,6 +3,7 @@
   "extends": "@karakeep/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "jsx": "preserve",
     "plugins": [
       {
         "name": "next"
