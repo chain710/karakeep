@@ -25,7 +25,9 @@ const useOnClickUrl = (bookmark: ZBookmarkTypeLink) => {
     onClickUrl:
       userSettings.bookmarkClickAction === "expand_bookmark_preview"
         ? `/dashboard/preview/${bookmark.id}`
-        : bookmark.content.url,
+        : userSettings.bookmarkClickAction === "open_reader_view"
+          ? `/reader/${bookmark.id}`
+          : bookmark.content.url,
   };
 };
 

@@ -109,7 +109,8 @@
         "bookmark_click_action": {
           "title": "书签点击操作",
           "open_external_url": "打开原始 URL",
-          "open_bookmark_details": "打开书签详情"
+          "open_bookmark_details": "打开书签详情",
+          "open_reader_view": "打开阅读器视图"
         },
         "archive_display_behaviour": {
           "title": "已存档的书签",

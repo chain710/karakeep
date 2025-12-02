@@ -114,7 +114,8 @@
         "bookmark_click_action": {
           "title": "書籤點擊動作",
           "open_external_url": "開啟原始網址",
-          "open_bookmark_details": "開啟書籤詳細資訊"
+          "open_bookmark_details": "開啟書籤詳細資訊",
+          "open_reader_view": "開啟閱讀器檢視"
         }
       }
     },
